@@ -30,7 +30,8 @@ public class Planeta
     //DOCUMENTAR
     /**
      * Si el planeta te un diametre mes petit de 1300 retornara un 1 sino un 0
-     * @return
+     * @return 1 Quan el planeta es enano
+     * @return 0 Quan el planeta no es enano
      */
     public int planetaEnano()
     {
@@ -47,7 +48,7 @@ public class Planeta
     //DOCUMENTAR
     /**
      * El planeta s'exepnadeix, es multiplicara *3 el seu diametre
-     * @return 
+     * @return this.diametre El diametre *3
      */
     public int expansio()
     {        
